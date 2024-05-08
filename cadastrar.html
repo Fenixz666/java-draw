@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EpicTask - Cadastrar</title>
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/cadastrar.js" defer></script>
+</head>
+<body>
+
+    <h1>Epic Task</h1>
+
+    
+    <form action="">
+        <h2 class="nes-text is-primary">Cadastrar Tarefa</h2>
+        <div class="nes-field">
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" class="nes-input">
+            <span id="titulo-erro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="nes-field">
+            <label for="descricao">Descrição</label>
+            <textarea id="descricao" class="nes-textarea"></textarea>
+            <span id="descricao-erro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="nes-field">
+            <label for="pontos">Pontos</label>
+            <input type="number" id="pontos" class="nes-input">
+            <span id="pontos-erro" class="nes-text is-error"></span>
+        </div>
+
+        <div class="acoes">
+            <a href="/index.html" class="nes-btn">cancelar</a>
+            <button type="button" id="botao-cadastrar" class="nes-btn is-primary">salvar</button>
+        </div>
+    </form>
