@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Draw task</title>
+    <title>Skins</title>
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +12,16 @@
     <script src="./js/carregar.js" defer></script>
     <script src="./js/apagar.js" defer></script>
     <script src="./js/atualizar.js" defer></script>
+    
+    <span class="total">Overall Progression</span>
+    <progress id="progresso-total" class="nes-progress is-success progresso" value="0" max="100"></progress>
+   
 
 
 </head>
 <body>
-    <a href="/cadastrar.html" class="nes-btn is-primary">
-        nova tarefa
-    </a>
-
-    <h1>EpicTask</h1>
+    <a href="/cadastrar.html" class="nes-btn is-primary add-skin">Add skin</a>
+    <h1 class="total">Skin Ideas</h1>
 
     <section id="lista-de-tarefas"> 
     </section>
