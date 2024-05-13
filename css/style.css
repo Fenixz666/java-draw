@@ -5,8 +5,8 @@ body {
 #lista-de-tarefas {
     /*mobile first*/
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 2.5rem;
 
     /* nesting css */
     /*
